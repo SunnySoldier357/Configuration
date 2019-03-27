@@ -1,0 +1,24 @@
+[user]
+	name = # TODO: Insert Name
+	email = # TODO: Insert Email
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = code -w -n
+	excludesfile = "path to .gitignore_global"
+[color]
+	ui = true
+[diff]
+	tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+# Windows
+[credential]
+	helper = manager
+[alias]
+	authorlist = shortlog -s -n --all --no-merges
+[fetch]
+	prune = true

@@ -1,0 +1,8 @@
+[Prevent scrcpy from blocking compositor]
+Description=Prevent scrcpy from blocking compositor
+blockcompositing=false
+blockcompositingrule=2
+types=1
+wmclass=scrcpy
+wmclasscomplete=false
+wmclassmatch=1

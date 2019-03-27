@@ -1,0 +1,90 @@
+{
+    "Required": [
+        "ban.spellright",
+        "formulahendry.code-runner",
+        "grapecity.gc-excelviewer",
+        "ms-vscode.vs-keybindings",
+        "ms-vsliveshare.vsliveshare-audio",
+        "ms-vsliveshare.vsliveshare",
+        "tyriar.sort-lines",
+        "visualstudioexptteam.vscodeintellicode",
+    ],
+
+    "Azure": [
+        "ms-azuretools.vscode-azureappservice",
+        "ms-mssql.mssql",
+        "ms-vscode.azure-account",
+    ],
+
+    "C++": [
+        "ms-vscode.cpptools",
+    ],
+
+    "C# (Base)": [
+        "dotjoshjohnson.xml",
+        "formulahendry.dotnet-test-explorer",
+        "jchannon.csharpextensions",
+        "jmrog.vscode-nuget-package-manager",
+        "jorgeserrano.vscode-csharp-snippets",
+        "k--kato.docomment",
+        "ms-vscode.csharp",
+    ],
+
+    "C# (ASP.NET Core)": [
+        "aledev29.razor-snippets-for-asp-net-core",
+        "austincummings.razor-plus",
+        "schneiderpat.aspnet-helper",
+    ],
+
+    "CSS": [
+        "aeschli.vscode-css-formatter",
+    ],
+
+    "Editor Visual Enhancements": [
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer",
+        "naumovs.color-highlight",
+        "pkief.material-icon-theme",
+        "shardulm94.trailing-spaces",
+    ],
+
+    "HTML": [
+        "ecmel.vscode-html-css",
+        "formulahendry.auto-rename-tag",
+        "mkaufman.htmlhint",
+        "ritwickdey.liveserver",
+        "zignd.html-css-class-completion",
+    ],
+
+    "Java": [
+        "vscjava.vscode-java-pack",
+    ],
+
+    "JavaScript": [
+        "dbaeumer.vscode-eslint",
+    ],
+
+    "LaTeX": [
+        "james-yu.latex-workshop",
+    ],
+
+    "Markdown": [
+        "davidanson.vscode-markdownlint",
+    ],
+
+    "PowerShell": [
+        "ms-vscode.powershell",
+    ],
+
+    "R": [
+        "hkumar6.r-vscode-tools",
+        "ikuyadeu.r",
+        "mikhail-arkhipov.r",
+    ],
+
+    "Source Control": [
+        "codezombiech.gitignore",
+        "donjayamanne.githistory",
+        "ms-vsts.team",
+    ]
+}
