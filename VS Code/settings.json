@@ -156,18 +156,12 @@
         }
     ],
 
-    "bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-            "#FE4A49",
-            "#FE8548",
-            "#FEC248"
-        ],
-        "Red"
+    "bracket-pair-colorizer-2.colors": [
+        "#FE4A49",
+        "#FE8548",
+        "#FEC248"
     ],
-    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
 
     "color-highlight.markerType": "dot-before",
 
