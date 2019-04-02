@@ -62,6 +62,9 @@ Markdown
 PowerShell
         - ms-vscode.powershell
 
+Python
+        - ms-python.python
+
 R
         - hkumar6.r-vscode-tools
         - ikuyadeu.r
