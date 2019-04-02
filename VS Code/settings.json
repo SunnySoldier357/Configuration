@@ -50,6 +50,10 @@
         "editor.quickSuggestions": false
     },
 
+    "path-autocomplete.enableFolderTrailingSlash": true,
+    // TODO: false for Linux & true for Windows
+    "path-autocomplete.useBackslash": false,
+
     "[plaintext]": {
         "editor.fontFamily": "Segoe UI for Windows & Liberation Serif for Linux",
         "editor.fontSize": 19,

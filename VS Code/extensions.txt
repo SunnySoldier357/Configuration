@@ -2,6 +2,7 @@ Required
         - ban.spellright
         - formulahendry.code-runner
         - grapecity.gc-excelviewer
+        - ionutvmi.path-autocomplete
         - ms-vscode.vs-keybindings
         - ms-vsliveshare.vsliveshare
         - ms-vsliveshare.vsliveshare-audio
