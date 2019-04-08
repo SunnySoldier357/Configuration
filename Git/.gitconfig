@@ -20,6 +20,7 @@
 	helper = manager
 [alias]
 	lol = log --oneline
+    rhh = reset --hard HEAD
     s = status
 
     c = commit
