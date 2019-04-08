@@ -20,13 +20,17 @@
 	helper = manager
 [alias]
 	lol = log --oneline
-    rhh = reset --hard HEAD
     s = status
 
     c = commit
     cm = commit -m
     ca = commit -a
     cam = commit -am
+
+    rh = reset --hard
+    rhh = reset --hard HEAD
+    rs = reset --soft
+    rsh = reset --soft HEAD
 
     # Show number of commits for each author
     authorlist = shortlog -s -n --all --no-merges
