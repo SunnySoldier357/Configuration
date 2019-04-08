@@ -19,7 +19,7 @@
 [credential]
 	helper = manager
 [alias]
-	lol = log --oneline
+	lol = log --graph --all --oneline
     s = status
 
     c = commit
