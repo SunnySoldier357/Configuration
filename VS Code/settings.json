@@ -4,7 +4,7 @@
 
     "debug.openDebug": "openOnDebugBreak",
 
-    "editor.codeLens": false,
+    "editor.codeLens": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -106,6 +106,7 @@
     "workbench.settings.editor": "json",
 
     //* C# (Base)
+    "csharp.referencesCodeLens.enabled": false,
     "csharp.suppressHiddenDiagnostics": false,
 
     "docomment.activateOnEnter": true,
