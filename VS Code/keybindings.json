@@ -13,6 +13,7 @@
     
     {
         "key": "ctrl+alt+up",
-        "command": "workbench.action.toggleMaximizedPanel"
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "terminalFocus"
     },
 ]
