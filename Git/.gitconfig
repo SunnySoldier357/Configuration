@@ -27,6 +27,8 @@
     ca = commit -a
     cam = commit -am
 
+    pua = push -u origin --all
+
     rh = reset --hard
     rhh = reset --hard HEAD
     rs = reset --soft
