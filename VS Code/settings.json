@@ -45,11 +45,6 @@
         "**/obj": true,
     },
 
-    "[markdown]": {
-        "editor.wordWrap": "off",
-        "editor.quickSuggestions": false
-    },
-
     "path-autocomplete.enableFolderTrailingSlash": true,
     // TODO: false for Linux & true for Windows
     "path-autocomplete.useBackslash": false,
@@ -114,16 +109,16 @@
     "dotnet-test-explorer.autoExpandTree": true,
     "dotnet-test-explorer.showCodeLens": false,
 
-    "razor.disabled": true,
-
     "[xml]": {
         "editor.tabSize": 2,
     },
 
-    //* C# (.NET Core)
+    //* C# (ASP.NET Core)
     "[razor]": {
         "editor.tabSize": 2,
     },
+
+    "razor.disabled": true,
 
     //* CSS
     "css.lint.duplicateProperties": "warning",
@@ -239,6 +234,12 @@
     "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
     "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+
+    //* Markdown
+    "[markdown]": {
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": false
+    },
 
     //* PowerShell
     "powershell.codeFormatting.openBraceOnSameLine": false,
