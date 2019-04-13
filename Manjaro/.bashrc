@@ -154,3 +154,6 @@ fi
 
 # Add .NET Core SDK tools
 export PATH="$PATH:/home/sandeepsingh/.dotnet/tools"
+
+# Add ~/bin/codeset/ to path
+export PATH="$PATH:~/bin/codeset"
