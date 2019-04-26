@@ -9,7 +9,7 @@
             "value": "openOnDebugBreak"
         },
         {
-            "key": "editor.codeLens",
+            "key": "debug.openExplorerOnEnd",
             "value": true
         },
         {
@@ -27,6 +27,10 @@
         {
             "key": "editor.fontSize",
             "value": 18
+        },
+        {
+            "key": "editor.formatOnPaste",
+            "value": true
         },
         {
             "key": "editor.formatOnType",
@@ -56,8 +60,12 @@
             "value": true
         },
         {
+            "key": "editor.suggestSelection",
+            "value": "first"
+        },
+        {
             "key": "extensions.autoUpdate",
-            "value": true
+            "value": false
         },
         {
             "key": "files.associations",
@@ -87,6 +95,14 @@
                 "**/CVS": true,
                 "**/obj": true,
             }
+        },
+        {
+            "key": "files.trimFinalNewlines",
+            "value": true
+        },
+        {
+            "key": "merge-conflict.autoNavigateNextConflict.enabled",
+            "value": true
         },
         {
             "key": "path-autocomplete.enableFolderTrailingSlash",
@@ -170,9 +186,16 @@
             "instruction": "Path to bash.exe"
         },
         {
+            "key": "update.mode",
+            "value": "manual"
+        },
+        {
+            "key": "vsintellicode.modify.editor.suggestSelection",
+            "value": "automaticallyOverrodeDefaultValue"
+        },
+        {
             "key": "window.titleBarStyle",
             "value": {
-                "linux": "native",
                 "windows": "custom"
             }
         },
@@ -193,8 +216,8 @@
             }
         },
         {
-            "key": "workbench.colorTheme",
-            "value": "Default Dark+"
+            "key": "workbench.editor.closeOnFileDelete",
+            "value": true
         },
         {
             "key": "workbench.editor.highlightModifiedTabs",
@@ -205,8 +228,32 @@
             "value": "material-icon-theme"
         },
         {
+            "key": "workbench.list.horizontalScrolling",
+            "value": true
+        },
+        {
             "key": "workbench.settings.editor",
             "value": "json"
+        },
+        {
+            "key": "workbench.settings.useSplitJSON",
+            "value": true
+        },
+        {
+            "key": "workbench.startupEditor",
+            "value": "readme"
+        },
+        {
+            "key": "workbench.statusBar.feedback.visible",
+            "value": false
+        },
+        {
+            "key": "zenMode.hideActivityBar",
+            "value": false
+        },
+        {
+            "key": "zenMode.hideTabs",
+            "value": false
         }
     ],
 
@@ -225,6 +272,10 @@
         },
         {
             "key": "dotnet-test-explorer.autoExpandTree",
+            "value": true
+        },
+        {
+            "key": "dotnet-test-explorer.runInParallel",
             "value": true
         },
         {
@@ -370,10 +421,6 @@
             "value": "force-aligned"
         },
         {
-            "key": "html.format.wrapLineLength",
-            "value": 100
-        },
-        {
             "key": "htmlhint.options",
             "value": {
                 "alt-require": true,
@@ -498,8 +545,16 @@
 
     "Source Control": [
         {
+            "key": "git.allowForcePush",
+            "value": true
+        },
+        {
             "key": "git.autofetch",
             "value": true
+        },
+        {
+            "key": "git.defaultCloneDirectory",
+            "value": "~/Repos/"
         },
         {
             "key": "team.showWelcomeMessage",

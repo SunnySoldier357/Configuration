@@ -3,12 +3,13 @@
     "breadcrumbs.enabled": true,
 
     "debug.openDebug": "openOnDebugBreak",
+    "debug.openExplorerOnEnd": true,
 
-    "editor.codeLens": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 18,
+    "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.rulers": [
@@ -18,8 +19,9 @@
     "editor.smoothScrolling": true,
     "editor.snippetSuggestions": "top",
     "editor.suggest.localityBonus": true,
+    "editor.suggestSelection": "first",
 
-    "extensions.autoUpdate": true,
+    "extensions.autoUpdate": false,
 
     "files.associations": {
         ".csslintrc": "json",
@@ -44,6 +46,9 @@
         "**/CVS": true,
         "**/obj": true,
     },
+    "files.trimFinalNewlines": true,
+
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
 
     "path-autocomplete.enableFolderTrailingSlash": true,
     // TODO: false for Linux & true for Windows
@@ -80,7 +85,12 @@
     // TODO: Replace File location
     "terminal.integrated.shell.windows": "path to bash.exe",
 
-    "window.titleBarStyle": "custom for Windows & native for Linux",
+    "update.mode": "manual",
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    // TODO: For Windows only
+    "window.titleBarStyle": "custom",
 
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
@@ -95,10 +105,17 @@
             "terminal.background": "#171717",
         }
     },
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.horizontalScrolling": true,
     "workbench.settings.editor": "json",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.startupEditor": "readme",
+    "workbench.statusBar.feedback.visible": false,
+
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideTabs": false,
 
     //* C# (Base)
     "csharp.referencesCodeLens.enabled": false,
@@ -107,6 +124,7 @@
     "docomment.activateOnEnter": true,
 
     "dotnet-test-explorer.autoExpandTree": true,
+    "dotnet-test-explorer.runInParallel": true,
     "dotnet-test-explorer.showCodeLens": false,
 
     "[xml]": {
@@ -198,7 +216,6 @@
     },
     "html.format.indentInnerHtml": true,
     "html.format.wrapAttributes": "force-aligned",
-    "html.format.wrapLineLength": 100,
 
     "htmlhint.options": {
         "alt-require": true,
@@ -254,7 +271,9 @@
     "r.linting.pascalCase": false,
 
     //* Source Control
+    "git.allowForcePush": true,
     "git.autofetch": true,
+    "git.defaultCloneDirectory": "~/Repos/",
 
     "team.showWelcomeMessage": false,
 }
