@@ -1,0 +1,509 @@
+{
+    "Required": [
+        {
+            "key": "breadcrumbs.enabled",
+            "value": true
+        },
+        {
+            "key": "debug.openDebug",
+            "value": "openOnDebugBreak"
+        },
+        {
+            "key": "editor.codeLens",
+            "value": true
+        },
+        {
+            "key": "editor.detectIndentation",
+            "value": false
+        },
+        {
+            "key": "editor.fontFamily",
+            "value": "Fira Code"
+        },
+        {
+            "key": "editor.fontLigatures",
+            "value": true
+        },
+        {
+            "key": "editor.fontSize",
+            "value": 18
+        },
+        {
+            "key": "editor.formatOnType",
+            "value": true
+        },
+        {
+            "key": "editor.multiCursorModifier",
+            "value": "ctrlCmd"
+        },
+        {
+            "key": "editor.rulers",
+            "value": [
+                80,
+                120
+            ]
+        },
+        {
+            "key": "editor.smoothScrolling",
+            "value": true
+        },
+        {
+            "key": "editor.snippetSuggestions",
+            "value": "top"
+        },
+        {
+            "key": "editor.suggest.localityBonus",
+            "value": true
+        },
+        {
+            "key": "extensions.autoUpdate",
+            "value": true
+        },
+        {
+            "key": "files.associations",
+            "value": {
+                ".csslintrc": "json",
+                ".gitignore_global": "properties",
+                ".minttyrc": "properties",
+                "*.kwinrule": "properties",
+                "*.rmd": "markdown",
+                "*.sln": "properties",
+                "grub": "properties"
+            }
+        },
+        {
+            "key": "files.exclude",
+            "value": {
+                "**/.classpath": true,
+                "**/.DS_Store": true,
+                "**/.factorypath": true,
+                "**/.git": true,
+                "**/.hg": true,
+                "**/.project": true,
+                "**/.settings": true,
+                "**/.svn": true,
+                "**/.vs": true,
+                "**/bin": true,
+                "**/CVS": true,
+                "**/obj": true,
+            }
+        },
+        {
+            "key": "path-autocomplete.enableFolderTrailingSlash",
+            "value": true
+        },
+        {
+            "key": "path-autocomplete.useBackslash",
+            "value": {
+                "linux": false,
+                "osx": false,
+                "windows": true
+            }
+        },
+        {
+            "key": "[plaintext]",
+            "value": {
+                "linux": {
+                    "editor.fontFamily": "Liberation Serif",
+                    "editor.fontSize": 19,
+                    "editor.tabSize": 8,
+                    "editor.wordWrap": "wordWrapColumn",
+                    "editor.wordWrapColumn": 150,
+                },
+                "windows": {
+                    "editor.fontFamily": "Segoe UI",
+                    "editor.fontSize": 19,
+                    "editor.tabSize": 8,
+                    "editor.wordWrap": "wordWrapColumn",
+                    "editor.wordWrapColumn": 150,
+                }
+            }
+        },
+        {
+            "key": "spellright.documentTypes",
+            "value": [
+                "csharp",
+                "css",
+                "html",
+                "java",
+                "json",
+                "jsonc",
+                "latex",
+                "markdown",
+                "plaintext",
+                "powershell",
+                "r",
+            ]
+        },
+        {
+            "key": "spellright.groupDictionaries",
+            "value": false
+        },
+        {
+            "key": "spellright.language",
+            "value": {
+                "linux": "English (British)",
+                "windows": "en-CA"
+            }
+        },
+        {
+            "key": "spellright.notificationClass",
+            "value": "hint"
+        },
+        {
+            "key": "terminal.integrated.cursorBlinking",
+            "value": true
+        },
+        {
+            "key": "terminal.integrated.cursorStyle",
+            "value": "line"
+        },
+        {
+            "key": "terminal.integrated.fontSize",
+            "value": 16
+        },
+        {
+            "key": "terminal.integrated.shell.windows",
+            "value": {
+                "windows": ""
+            },
+            "instruction": "Path to bash.exe"
+        },
+        {
+            "key": "window.titleBarStyle",
+            "value": {
+                "linux": "native",
+                "windows": "custom"
+            }
+        },
+        {
+            "key": "workbench.colorCustomizations",
+            "value": {
+                "[Default Dark+]": {
+                    "activityBar.background": "#2C2C2C",
+                    "editor.background": "#171717",
+                    "sideBar.background": "#1E1E1E",
+                    "statusBar.background": "#FE4A4977",
+                    "terminal.ansiBrightRed": "#FE0004",
+                    "terminal.ansiCyan": "#34DDDF",
+                    "terminal.ansiRed": "#FEA4A4",
+                    "terminal.ansiYellow": "#FEF729",
+                    "terminal.background": "#171717",
+                }
+            }
+        },
+        {
+            "key": "workbench.colorTheme",
+            "value": "Default Dark+"
+        },
+        {
+            "key": "workbench.editor.highlightModifiedTabs",
+            "value": true
+        },
+        {
+            "key": "workbench.iconTheme",
+            "value": "material-icon-theme"
+        },
+        {
+            "key": "workbench.settings.editor",
+            "value": "json"
+        }
+    ],
+
+    "C# (Base)": [
+        {
+            "key": "csharp.referencesCodeLens.enabled",
+            "value": false
+        },
+        {
+            "key": "csharp.suppressHiddenDiagnostics",
+            "value": false
+        },
+        {
+            "key": "docomment.activateOnEnter",
+            "value": true
+        },
+        {
+            "key": "dotnet-test-explorer.autoExpandTree",
+            "value": true
+        },
+        {
+            "key": "dotnet-test-explorer.showCodeLens",
+            "value": false
+        },
+        {
+            "key": "[xml]",
+            "value": {
+                "editor.tabSize": 2,
+            }
+        }
+    ],
+
+    "C# (ASP.NET Core)": [
+        {
+            "key": "[razor]",
+            "value": {
+                "editor.tabSize": 2,
+            }
+        },
+        {
+            "key": "razor.disabled",
+            "value": true
+        }
+    ],
+
+    "CSS": [
+        {
+            "key": "css.lint.duplicateProperties",
+            "value": "warning"
+        }
+    ],
+
+    "Editor Visual Enhancements": [
+        {
+            "key": "better-comments.tags",
+            "value": [
+                {
+                    "tag": "!",
+                    "color": "#FE4A49",
+                    "strikethrough": false,
+                    "backgroundColor": "transparent"
+                },
+                {
+                    "tag": "?",
+                    "color": "#3498DB",
+                    "strikethrough": false,
+                    "backgroundColor": "transparent"
+                },
+                {
+                    "tag": "//",
+                    "color": "#606060",
+                    "strikethrough": true,
+                    "backgroundColor": "transparent"
+                },
+                {
+                    "tag": "todo",
+                    "color": "#FF8C00",
+                    "strikethrough": false,
+                    "backgroundColor": "transparent"
+                },
+                {
+                    "tag": "*",
+                    "color": "#98C379",
+                    "strikethrough": false,
+                    "backgroundColor": "transparent"
+                }
+            ]
+        },
+        {
+            "key": "bracket-pair-colorizer-2.colors",
+            "value": [
+                "#FE4A49",
+                "#FE8548",
+                "#FEC248"
+            ]
+        },
+        {
+            "key": "bracket-pair-colorizer-2.showHorizontalScopeLine",
+            "value": false
+        },
+        {
+            "key": "color-highlight.markerType",
+            "value": "dot-before"
+        },
+        {
+            "key": "material-icon-theme.files.associations",
+            "value": {
+                ".bash_profile": "settings",
+                ".bashrc": "settings",
+                ".csslintrc": "settings",
+                ".eslintrc.json": "settings",
+                ".gitignore_global": "git",
+                ".minttyrc": "settings",
+                "coffeelint.json": "settings",
+                "formatter.xml": "settings",
+                "settings.json": "editorconfig",
+                "todo.txt": "todo"
+            }
+        },
+        {
+            "key": "material-icon-theme.folders.associations",
+            "value": {
+                ".settings": "config",
+            }
+        },
+        {
+            "key": "trailing-spaces.highlightCurrentLine",
+            "value": false
+        },
+        {
+            "key": "trailing-spaces.includeEmptyLines",
+            "value": false
+        },
+        {
+            "key": "trailing-spaces.trimOnSave",
+            "value": true
+        }
+    ],
+
+    "HTML": [
+        {
+            "key": "auto-rename-tag.activationOnLanguage",
+            "value": [
+                "html",
+                "xaml",
+                "xml",
+            ]
+        },
+        {
+            "key": "[html]",
+            "value": {
+                "editor.tabSize": 2,
+            }
+        },
+        {
+            "key": "html.format.indentInnerHtml",
+            "value": true
+        },
+        {
+            "key": "html.format.wrapAttributes",
+            "value": "force-aligned"
+        },
+        {
+            "key": "html.format.wrapLineLength",
+            "value": 100
+        },
+        {
+            "key": "htmlhint.options",
+            "value": {
+                "alt-require": true,
+                "attr-lowercase": true,
+                "attr-no-duplication": true,
+                "attr-unsafe-chars": true,
+                "attr-value-double-quotes":  true,
+                "csslint": true,
+                "doctype-first": true,
+                "id-unique": true,
+                "jshint": true,
+                "space-tab-mixed-disabled": true,
+                "spec-char-escape": true,
+                "tagname-lowercase": true,
+                "title-require": true,
+            }
+        },
+        {
+            "key": "liveServer.settings.host",
+            "value": "localhost"
+        },
+        {
+            "key": "liveServer.settings.port",
+            "value": 6000
+        }
+    ],
+
+    "Java": [
+        {
+            "key": "java.completion.guessMethodArguments",
+            "value": true
+        },
+        {
+            "key": "java.configuration.updateBuildConfiguration",
+            "value": "automatic"
+        },
+        {
+            "key": "java.errors.incompleteClasspath.severity",
+            "value": "ignore"
+        },
+        {
+            "key": "java.format.settings.profile",
+            "value": "Sandeep"
+        },
+        {
+            "key": "java.format.settings.url",
+            "value": "",
+            "instruction": "Path to formatter.xml"
+        },
+        {
+            "key": "java.signatureHelp.enabled",
+            "value": true
+        }
+    ],
+
+    "JavaScript": [
+        {
+            "key": "eslint.autoFixOnSave",
+            "value": true
+        },
+        {
+            "key": "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions",
+            "value": false
+        },
+        {
+            "key": "javascript.format.placeOpenBraceOnNewLineForControlBlocks",
+            "value": true
+        },
+        {
+            "key": "javascript.format.placeOpenBraceOnNewLineForFunctions",
+            "value": true
+        }
+    ],
+
+    "Markdown": [
+        {
+            "key": "[markdown]",
+            "value": {
+                "editor.wordWrap": "off",
+                "editor.quickSuggestions": false
+            }
+        }
+    ],
+
+    "PowerShell": [
+        {
+            "key": "powershell.codeFormatting.openBraceOnSameLine",
+            "value": false
+        }
+    ],
+
+    "R": [
+        {
+            "key": "r.dependencyChecks",
+            "value": false
+        },
+        {
+            "key": "r.editor.bracesOnNewLine",
+            "value": true
+        },
+        {
+            "key": "r.editor.spaceBeforeCurly",
+            "value": false
+        },
+        {
+            "key": "r.editor.tabSize",
+            "value": 4
+        },
+        {
+            "key": "r.linting.enable",
+            "value": true
+        },
+        {
+            "key": "r.linting.openCurlyPosition",
+            "value": false
+        },
+        {
+            "key": "r.linting.pascalCase",
+            "value": false
+        }
+    ],
+
+    "Source Control": [
+        {
+            "key": "git.autofetch",
+            "value": true
+        },
+        {
+            "key": "team.showWelcomeMessage",
+            "value": false
+        }
+    ]
+}
