@@ -143,6 +143,8 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 
 #* Sandeep's Additions
 
+alias where="which --show-tilde"
+
 # Setting up the prompt
 [[ -f /usr/share/git/git-prompt.sh ]] && . /usr/share/git/git-prompt.sh
 PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[91m\]\u \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[91m\]\n$ \033[31m\]'
