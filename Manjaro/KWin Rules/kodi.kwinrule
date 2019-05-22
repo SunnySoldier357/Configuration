@@ -1,0 +1,8 @@
+[Prevent kodi from blocking compositor]
+Description=Prevent kodi from blocking compositor
+blockcompositing=false
+blockcompositingrule=2
+types=1
+wmclass=kodi
+wmclasscomplete=false
+wmclassmatch=1
