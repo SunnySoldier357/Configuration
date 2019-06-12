@@ -159,3 +159,15 @@ export PATH="$PATH:/home/sandeepsingh/.dotnet/tools"
 
 # Add ~/bin/codeset/ to path
 export PATH="$PATH:~/bin/codeset"
+
+#
+# # new-code - create and open a new file in Visual Studio code
+# # usage: new-code <file>
+new-code ()
+{
+    if [ $# -eq 0 ] ; then
+        echo "new-code requires a file name"
+    else
+        sudo touch $1 && code $1
+    fi
+}
