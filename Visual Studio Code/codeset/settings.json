@@ -158,8 +158,12 @@
         {
             "key": "spellright.language",
             "value": {
-                "linux": "English (British)",
-                "windows": "en-CA"
+                "linux": [
+                    "en_GB"
+                ],
+                "windows": [
+                    "en-CA"
+                ]
             }
         },
         {

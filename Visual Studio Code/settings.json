@@ -76,7 +76,9 @@
         "r",
     ],
     "spellright.groupDictionaries": false,
-    "spellright.language": "en-CA for Windows & English (British) for Linux",
+    "spellright.language": [
+        "en-CA for Windows & en_GB for Linux"
+    ],
     "spellright.notificationClass": "hint",
 
     "terminal.integrated.cursorBlinking": true,
