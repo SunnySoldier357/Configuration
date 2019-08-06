@@ -48,5 +48,9 @@
 	tags = tag -l
 	branches = branch -a
     remotes = remote -v
+
+    # Subtree add & update ($1 - repo uri | $2 - destination folder)
+    sba = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
+    sbu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
 [fetch]
 	prune = true
