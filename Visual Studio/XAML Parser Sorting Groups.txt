@@ -1,0 +1,20 @@
+x:Class
+xmlns, xmlns:x
+xmlns:*
+x:*
+Key, Name, Uid, Title
+Grid.Row, Grid.RowSpan, Grid.Column, Grid.ColumnSpan, Canvas.Left, Canvas.Top, Canvas.Right, Canvas.Bottom
+Width, Height, MinWidth, MinHeight, MaxWidth, MaxHeight, HeightRequest, WidthRequest
+Orientation
+HorizontalAlignment, VerticalAlignment, HorizontalContentAlignment, VerticalContentAlignment, HorizontalOptions, VerticalOptions, Panel.ZIndex
+Style, BindingContext, ItemsSource
+Margin, Padding, Spacing
+Source, Icon, BackgroundColor, ForegroundColor
+BorderWidth, CornerRadius, BorderColor
+Text, Content, Placeholder, FontAttributes, FontSize, TextColor, LineBreakMode
+
+*:*, *
+Command, *Command, CommandParameter, Clicked, ItemSelected
+PageSource, PageIndex, Offset, Color, TargetName, Property, Value, StartPoint, EndPoint
+mc:Ignorable, d:IsDataSource, d:LayoutOverrides, d:IsStaticText
+Storyboard.*, From, To, Duration
