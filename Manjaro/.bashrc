@@ -147,7 +147,7 @@ alias where="which --show-tilde"
 
 # Setting up the prompt
 [[ -f /usr/share/git/git-prompt.sh ]] && . /usr/share/git/git-prompt.sh
-PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[91m\]\u \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[91m\]\n$ \033[31m\]'
+PS1='\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[91m\]\u \[\033[35m\]\h \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[91m\]\n$ \033[31m\]'
 
 # Setting up git completion
 if [ -f ~/.git-completion.bash ]; then
