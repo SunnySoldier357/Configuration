@@ -1,0 +1,47 @@
+- Azure Data Studio
+- KAppTemplate
+- KDevelop
+- VirtualBox
+- Postman
+- Qt Creator
+- VSCode (Snap?)
+- GIMP
+- Gwenview
+- KColorChooser
+- Kolourpaint
+- Krita
+- Okular
+- KGet
+- Microsoft Teams (To get pictures of ExpenseApp)
+- cantata
+- dragon player
+- easytag
+- kdenlive
+- kodi
+- spotify
+- snap addon for pamac
+- kvantum manager
+- oomox
+- tlpS
+- messenger
+- timeshift
+- barrier
+- kcharselect
+- scrcpy
+- redshift
+- spectacle
+
+
+- dotnet-sdk
+- gtk-theme-breath
+- hunspell-*
+- kio-gdrive
+- onedrive-abraunegg
+- pamac-tray-appindicator
+- papirus-icon-theme
+- papirus-maia-icon-theme
+- plasma-browser-integration
+- refind-efi
+- ttf-fira-code
+- ttf-ms-fonts
+- ttf-vista-fonts
